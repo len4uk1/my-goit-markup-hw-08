@@ -10,38 +10,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-<link rel="stylesheet" href="./css/styles.css"/>
+
+<link rel="stylesheet" href="./css/main.min.css"/>
 
 </head>
 
 <body>
     <!--шапка-->
-    <header class=" ">
-        <div class="container page-container">
-             <nav class="navigation">
-        <a class="link logo-tape" href="" >
-            <span class="logo-up list">Web</span><span class="logospan-up">Studio</span></a>
-        <ul class="meny list icon-bezier">
-            <li class="li-meny">
-                <a class="meny-text link " href="./index.html">Студія</a> </li>
-            <li class="li-meny">
-                <a class="stud link underline " href="./portfolio.html">Портфолио</a> </li>
-            <li class="li-meny">
-                <a class="meny-text link " href="">Контакти</a> </li>
+    <header class="header">
+        <div class="header__page-container container">
+             <nav class="header__navigation-direction">
+        <a class="header__tenor link" href="" >
+            <span class="header__brand-logo list">Web</span><span class="header__mark-type">Studio</span></a>
+        <ul class="meny list">
+            <li class="meny__link">
+                <a class="meny__text link " href="./index.html">Студія</a> </li>
+            <li class="meny__link">
+                <a class="meny__link underline stud link " href="./portfolio.html">Портфолио</a></li>
+            <li class="meny__link">
+                <a class="meny__text link " href="">Контакти</a> </li>
             
         </ul>
     </nav>
     <ul class="meny list">
         <li class="meny">
-            <a class="phone-number link" href="mailto:info@devstudio.com">
-                <svg class="phone-svg" width="16" height="12">
+            <a class="meny__phone-number link" href="mailto:info@devstudio.com">
+                <svg class="meny__phone-svg" width="16" height="12">
                     <use href="./image/sprite.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a>
         </li>
     <li>
-        <a class="phone-number link" href="+380961111111">
-            <svg class="phone-svg" width="10" height="16">
+        <a class="meny__phone-number link" href="+380961111111">
+            <svg class="meny__phone-svg" width="10" height="16">
                 <use href="./image/sprite.svg#icon-smartphone-2"></use>
             </svg>
             +38 096 111 11 11</a>
@@ -57,186 +58,167 @@
     <div class="container">
         <h1 hidden>головне портфоліо</h1>
 
-    <ul class="btn-knob  meny list">
-        <li class="">
-            <button class="bbtn portfolio-btn" type="button">все </button></li>
-        <li class=""><button class="port portfolio-btn " type="button">веб-сайти </button></li>
-        <li class=""><button class="port portfolio-btn " type="button">додаток </button></li>
-        <li class=""><button class="port portfolio-btn" type="button">дизайн  </button></li>
-        <li class=""><button class="port portfolio-btn" type="button">маркетинг </button></li>
+    <ul class="buttons  meny list">
+        <li class="buttons__snap-list">
+            <button class=" buttons__portfolio-btn bbtn " type="button">все </button></li>
+        <li class="buttons__snap-list"><button class="buttons__portfolio-btn port " type="button">веб-сайти </button></li>
+        <li class="buttons__snap-list"><button class="buttons__portfolio-btn port" type="button">додаток </button></li>
+        <li class="buttons__snap-list"><button class="buttons__portfolio-btn port" type="button">дизайн  </button></li>
+        <li class="buttons__snap-list"><button class="buttons__portfolio-btn port" type="button">маркетинг </button></li>
     </ul>
     
-        <ul class="menys list">
+        <ul class="menu-selection list">
      
      
             <li class="work-moment">
-                <a href="" class="link work-link">
-       <div class="div-overlay">
-        <img src="./image_portfolio/img1.jpg" alt= "фото проектів" width="370" >
+                <a href="" class="work-moment__work-links link">
+       <div class="cards-photos">
+
+               <img src="./image_portfolio/img1.jpg" alt= "фото проектів" width="370" >
            
-            <p class="overlay">
+            <p class="cards-photos__inside">
                Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                  Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
              </p>   
        </div>
             
-     <div class="div-portfolio">
-                <h2 class="work-name">Технокряк</h2>
+     <div class="exposition">
+                <h2 class="exposition__names">Технокряк</h2>
                 
-    <p class="story">веб-сайт</p>
+    <p class="exposition__title">веб-сайт</p>
       </div>
         </a>
      </li>   
-            
- 
- 
- 
-     <li class="work-moment"> 
-        <a href="" class="link work-link">
-            <div class="div-overlay">
+            <li class="work-moment"> 
+        <a href="" class="work-moment__work-links link">
+            <div class="cards-photos">
                 <img src="./image_portfolio/img2.jpg" alt= "фото проектів" width="370" >
-            <p class="overlay">
+            <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                   Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </p>   
-     
-            </div>
-            <div class="div-portfolio">
-        <h2 class="work-name">Постер New Orlean vs Golden Star</h2>
-     <p class="story">Дизайнт</p>
+     </div>
+            <div class="exposition">
+        <h2 class="exposition__names">Постер New Orlean vs Golden Star</h2>
+     <p class="exposition__title">Дизайнт</p>
      </div>
        </a>  
     </li>
-        
-
-    
-    
-    <li class="work-moment">
-        <a href="" class="link work-link">
-            <div class="div-overlay">
+        <li class="work-moment">
+        <a href="" class="link work-moment__work-links">
+            <div class="cards-photos">
              <img src="./image_portfolio/img3.jpg" alt= "фото проектів" width="370" >
-              <p class="overlay">
+              <p class="cards-photos__inside">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
               Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
           </p>   
             </div>
-     <div class="div-portfolio">
-<h2 class="work-name">Ресторан Seafood</h2>
-     <p class="story">Додаток</p>
+     <div class="exposition">
+<h2 class="exposition__names">Ресторан Seafood</h2>
+     <p class="exposition__title">Додаток</p>
      </div>
         </a>
      </li> 
-       
-
-     
-     <li class="work-moment">
-        <a href="" class="link work-link">
-            <div class="div-overlay">
+<li class="work-moment">
+        <a href="" class="link work-moment__work-links">
+            <div class="cards-photos">
 
         <img src="./image_portfolio/img4.jpg" alt= "фото проектів" width="370" >
-        <p class="overlay">
+        <p class="cards-photos__inside">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
               Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
           </p>   
         </div>
-         <div class="div-portfolio">
-           <h2 class="work-name">Проект Prime</h2>
-        <p class="story">Маркетинг</p> 
+         <div class="exposition">
+           <h2 class="exposition__names">Проект Prime</h2>
+        <p class="exposition__title">Маркетинг</p> 
          </div> 
         </a>
          </li> 
-           
-            
-    <li class="work-moment">
-        <a href="" class="link work-link">
-            <div class="div-overlay">
-
-
-        <img src="./image_portfolio/img5.jpg" alt= "фото проектів" width="370" >
-        <p class="overlay">
+<li class="work-moment">
+        <a href="" class="link work-moment__work-links">
+            <div class="cards-photos">
+    <img src="./image_portfolio/img5.jpg" alt= "фото проектів" width="370" >
+        <p class="cards-photos__inside">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
               Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
           </p>   
         </div>
-    <div class="div-portfolio">
-        <h2 class="work-name">Проект Boxes</h2>
-    <p class="story">Додаток</p>
+    <div class="exposition">
+        <h2 class="exposition__names">Проект Boxes</h2>
+    <p class="exposition__title">Додаток</p>
     </div>
 </a>
      </li> 
-         
-                    
-        <li class="work-moment">
-            <a href="" class="link work-link">
-                <div class="div-overlay">
+         <li class="work-moment">
+            <a href="" class="link work-moment__work-links">
+                <div class="cards-photos">
         <img src="./image_portfolio/img6.jpg" alt= "фото проектів" width="370" >
-            <p class="overlay">
+            <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                 Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
             </p>   
             </div>
-                <div class="div-portfolio">
-                <h2 class="work-name">Inspiration has no Borders  </h2>
-                <p class="story">веб-сайт</p>  
+                <div class="exposition">
+                <h2 class="exposition__names">Inspiration has no Borders  </h2>
+                <p class="exposition__title">веб-сайт</p>  
                 </div>
                 </a>
                 </li>  
 
                                  
             <li class="work-moment">
-                <a href="" class="link work-link">
-                    <div class="div-overlay">
+                <a href="" class="link work-moment__work-links">
+                    <div class="cards-photos">
 
                 <img src="./image_portfolio/img7.jpg" alt= "фото проектів" width="370" >
-                <p class="overlay">
+                <p class="cards-photos__inside">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                 </p>   
             </div>
-            <div class="div-portfolio">
-                <h2 class="work-name">Видавництво Limited Edition   </h2>
-                <p class="story">Дизайн</p>
+            <div class="exposition">
+                <h2 class="exposition__names">Видавництво Limited Edition   </h2>
+                <p class="exposition__title">Дизайн</p>
             </div>
         </a>
                 </li> 
                       
 
            <li class="work-moment">
-            <a href="" class="link work-link">
-                <div class="div-overlay">
+            <a href="" class="link work-moment__work-links">
+                <div class="cards-photos">
 
             <img src="./image_portfolio/img8.jpg" alt= "фото проектів" width="370" >
-            <p class="overlay">
+            <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                 Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
             </p>   
         </div>
-                    <div class="div-portfolio">
-                        <h2 class="work-name">Проєкт LAB  Growing Business</h2>
-                    <p class="story">Маркетинг</p>
+                    <div class="exposition">
+                        <h2 class="exposition__names">Проєкт LAB  Growing Business</h2>
+                    <p class="exposition__title">Маркетинг</p>
                     </div>
                 </a>
             </li> 
                         
         <li class="work-moment">
-            <a href="" class="link work-link">
-                <div class="div-overlay">
+            <a href="" class="link work-moment__work-links">
+                <div class="cards-photos">
 
             <img src="./image_portfolio/img9.jpg" alt= "фото проектів" width="370" >
-            <p class="overlay">
+            <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                 Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
             </p>   
         </div>
                  
-             <div class="div-portfolio">
-                <h2 class="work-name">Growing Business</h2>
-            <p class="story">Додаток</p>
+             <div class="exposition">
+                <h2 class="exposition__names">Growing Business</h2>
+            <p class="exposition__title">Додаток</p>
              </div>
             </a>
-                       
-             
-                 </li>                
+         </li>                
         </ul>
     </div>
         </section>
@@ -300,7 +282,28 @@
 </li>
 </ul>
 </div>
- </div>
+
+<form class="sign-form">
+    
+        <p class="sign-start">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+    <div class="conect-div">
+        
+        <input 
+        type="email"
+        name="user_email"
+        class="sign-input"
+        placeholder="E-mail"
+        required
+        />
+        <button type="submit" class="button-email-form">Підписатися
+<svg class="sign-photo-label" width="24" height="24">
+    <use href="./image/sprite.svg#icon-icon-send"></use>
+
+</svg>
+ </button>
+</div>
+</form>
+    </div>
 </footer>
 </body>
 </html>

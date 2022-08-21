@@ -1,81 +1,80 @@
 .header__page-container {
-    display: flex;
-    align-items: center;
-   }
-   
-   .header__navigation-direction {
-     display: flex;
-     align-items: center;
-   }
-   
-   .menu-selection {
-     display: flex;
-     flex-wrap: wrap;
-     margin-top: 50px;
-   }
-   
-   .meny {
-    display: flex;
-   align-items: center;
-    margin-left: auto
-    }
-   .token {
-     display: flex;
-     align-items: center;
-     margin-left: auto;
-     & :not(:last-child) {
-       margin-right: 50px;
-     }
-   }
-   .li-meny:not(:last-child) {
-     margin-right: 50px;
-   }
-   .studio {
-     padding: 32px 0;
-     display: block;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1.14;
-     letter-spacing: 0.02em;
-     color: var(--knob-color);
-   }
-   .meny__text {
-     display: block;
-     padding: 32px 0;
-     font-weight: 500;
-     line-height: 1.33;
-     letter-spacing: 0.02em;
-     color: var(--text-color);
-     transition: color var(--transition-duration);
-     &:hover,
-     &:focus {
-       color: var(--knob-color);
-     }
-   }
-   .email {
-     font-weight: 500;
-     line-height: 1.14;
-     letter-spacing: 0.02em;
-     color: var(--mail-color);
-   }
-   .meny__phone-svg {
-     fill: currentColor;
-     margin-right: 10px;
-   }
-   .meny__phone-number {
-     align-items: center;
-     display: flex;
-     justify-content: center;
-     padding: 32px 0;
-     font-weight: 500;
-     line-height: 1.14;
-     letter-spacing: 0.02em;
-     color: var(--mail-color);
-     transition: var(--transition-duration);
-     &:hover,
-     &:focus {
-       color: var(--knob-color);
-     }
-   }
-   
+  display: flex;
+  align-items: center;
+}
+
+.header__navigation-direction {
+  display: flex;
+  align-items: center;
+}
+
+.menu-selection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.meny {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.token {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  & :not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.li-meny:not(:last-child) {
+  margin-right: 50px;
+}
+.studio {
+  padding: 32px 0;
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--knob-color);
+}
+.meny__text {
+  display: block;
+  padding: 32px 0;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  transition: color var(--transition-duration);
+  &:hover,
+  &:focus {
+    color: var(--knob-color);
+  }
+}
+.email {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mail-color);
+}
+.meny__phone-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.meny__phone-number {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mail-color);
+  transition: var(--transition-duration);
+  &:hover,
+  &:focus {
+    color: var(--knob-color);
+  }
+}

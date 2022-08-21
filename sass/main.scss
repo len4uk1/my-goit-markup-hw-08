@@ -1,27 +1,34 @@
-@import "./utils/variables";
-@import "./utils/visual-hidden";
-@import "./utils/mixin";
+@import'./bace/common';
+@import'./bace/container';
+@import'./bace/heading';
 
-@import "./bace/common";
-@import "./bace/container";
-@import "./bace/heading";
+@import'./coponents/backdrop';
+@import'./coponents/button-email'; 
+@import'./coponents/button-portfolio';
+@import'./coponents/inside-window';
+@import'./coponents/list-icon';
+@import'./coponents/logo-type'; 
+@import'./coponents/modal-button';
+@import'./coponents/modal-window';
+@import'./coponents/underline'; 
 
-@import "./coponents/logo-type";
-@import "./coponents/meny__link";
-@import "./coponents/modal-button";
-@import "./coponents/list-icon";
-@import "./coponents/button-email";
-@import "./coponents/modal-window";
-@import "./coponents/inside-window";
-@import "./coponents/button-portfolio";
-@import "./coponents/backdrop";
 
-@import "./loyout/header";
-@import "./loyout/hero";
-@import "./loyout/about";
-@import "./loyout/services";
-@import "./loyout/team";
-@import "./loyout/customers";
-@import "./loyout/footer";
-@import "./loyout/subscribe";
-@import "./loyout/hero-portfolio";
+@import'./loyout/about';
+@import'./loyout/costomers';
+@import'./loyout/footer';
+@import'./loyout/header';
+@import'./loyout/hero-portfolio'; 
+@import'./loyout/hero';
+@import'./loyout/services';
+@import'./loyout/subscribe';
+@import'./loyout/team';
+
+@import'./utils/mixin';
+@import'./utils/variables';
+@import'./utils/visual-hidden'; 
+
+
+
+
+
+

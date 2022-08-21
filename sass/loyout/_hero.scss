@@ -1,0 +1,25 @@
+.hero {
+    padding:200px 0;
+    background:var(--background-color);
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../image/hero/foon.jpg);
+    background-size: cover;
+    background-color: #C4C4C4; 
+    }
+    .main-title {
+    margin-bottom:30px ;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--whitey-color);
+    }
+     
+     
+    

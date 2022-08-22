@@ -8,12 +8,14 @@
 
   
 }
-
-.mobile-menu-open {
+@media screen and (min-width: 480px) {
+  .mobile-menu-open {
   background-color: transparent;
   border: none;
   height: 40px;
 }
+}
+
 
 .header__page-container {
   display: flex;

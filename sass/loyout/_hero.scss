@@ -1,14 +1,36 @@
-@media screen and (min-width: 1200px) {
+ 
     .hero {
+    max-width: 1600px;
     padding:200px 0;
     background:var(--background-color);
     text-align: center;
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../image/hero/foon.jpg);
     background-size: cover;
-    background-color: #C4C4C4; 
+    background-color: #C4C4C4;
+
+@media screen and (min-width: 480px) {
+.hero {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+url("../image/mobile-picture/Header.jpg");
+   }
+}
+@media screen and (min-width: 767px) {
+.hero {
+background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+url("../image/mobile-picture/Header2x.jpg");
+background-repeat: no-repeat ;
     }
 }
+@media screen and (min-width: 1200px) {
+
+    }
+
+
+
+
+}
+
 
     .main-title {
     margin-bottom:30px ;

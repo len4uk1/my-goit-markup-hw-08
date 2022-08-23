@@ -68,6 +68,15 @@ body {
   background-color: green;
 }
 
+.mobile-menu_close-cross {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
 .backdrop {
   position: fixed;
   top: 0;

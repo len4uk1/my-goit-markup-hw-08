@@ -8,13 +8,19 @@
     left: 0;
     background-color: green;
 }
+.mobile-menu_close-cross {
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+    
 
 // @media screen and (max-width: 768px) {
 
 
-// .mobile-menu_close-cross {
-//     position: absolute;
-//     top: 0;
 
 //     background-color: transparent;
 //     border: none;

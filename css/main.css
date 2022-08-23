@@ -516,6 +516,7 @@ body {
 }
 
 .hero {
+  height: 100%;
   max-width: 1600px;
   background: var(--background-color);
   text-align: center;

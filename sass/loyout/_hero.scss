@@ -1,34 +1,43 @@
  
 //     .hero {
-//     max-width: 1600px;
+    
+//        margin-right: auto;
+//         margin-left: auto;
 //     padding:200px 0;
 //     background:var(--background-color);
 //     text-align: center;
 //     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 //     url(../image/hero/foon.jpg);
 //     background-size: cover;
-//     background-color: #C4C4C4;
-
-// @media screen and (min-width: 480px) {
+//     background-color: #C4C4C4; 
+//     }
+    
+  
+  
+//     @media screen and (min-width: 480px) {
 // .hero {
 // background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 // url("../image/mobile-picture/Header.jpg");
-// padding: 118px;
+// height: 480px;
+
 //    }
 // }
-// @media screen and (min-width: 767px) {
+
+// @media screen and (min-width: 768px) {
 // .hero {
 // background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 // url("../image/mobile-picture/Header2x.jpg");
 // background-repeat: no-repeat ;
-// padding: 118px;
+
+// height: 768px;
 //     }
 // }
-// @media screen and (min-width: 1200px) {
+    
+    
 
-//     }
 
-// }
+
+
 
 
 

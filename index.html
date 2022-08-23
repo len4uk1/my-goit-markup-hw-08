@@ -38,7 +38,7 @@
 
                 </ul>
             </nav>
-<button type="button" class="mobile-menu-open">
+<button type="button" class="mobile-menu-open" data-menu-open>
     <svg class="mobile-menu-open_icon" width="40" height="40">
         <use href="./image/sprite.svg#icon-menu_40px"></use>
     </svg>
@@ -61,19 +61,44 @@
                 </li>
             </ul>
     </div>
-        <div class="mobile-menu">
+        <div class="mobile-menu" data-menu>
             <div class="container mobile-menu__container">
-               <button class="mobile-menu_close-btn">
+               <button class="mobile-menu_close-btn" data-menu-close>
                 <svg class="mobile-menu_close-icon" width="40" height="40">
                     <use href="./image/sprite.svg#icon-close_40px"></use>
                 </svg>
             </button>
-            <ul>
-                 <li> <a href="#">Студія</a></li>
-    <li> <a href="#">Портфоліо</a></li>
-        <li> <a href="#">Контакти</a></li>
-            </ul> 
+            <ul class="mob-menu list link">
+                 <li class="mob-menu_item">
+                     <a class="mob-menu_color caren link" href="./portfolio.html">Студія</a></li>
+                 <li class="mob-menu_item"> 
+                    <a class="mob-menu_color link" href="./portfolio.html">Портфоліо</a></li>
+                 <li class="mob-menu_item">
+                     <a class="mob-menu_color link" href="#">Контакти</a></li>
+            </ul>
+            
+               <div class="container mobile-menu__container list link "> 
+                 <a class="mobile-menu__phone list link" href="+380961111111">+380961111111</a>
+                 <a class="mobile-menu__email list link" href="mailto:info@devstudio.com">mailto:info@devstudio.com</a>
+             <ul class="phone-programs ">
+                <li class="phone-programs__list ">
+                    <a class="phone-programs__item link " href="instagram">instagram</a></li>
+                <li class="phone-programs__list">
+                    <a class="phone-programs__item" href="twitter">twitter</a></li>
+                <li class="phone-programs__list">
+                    <a class="phone-programs__item" href="facebook">facebook</a></li>
+                <li class="phone-programs__list">
+                    <a class="phone-programs__item" href="linkedin">linkedin</a></li>
+            </ul>
             </div>
+           
+            
+        
+            </div>
+           
+        
+
+            
             
         </div>
 </header>
@@ -539,6 +564,7 @@
     
         </div>
     </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
     </body>
     

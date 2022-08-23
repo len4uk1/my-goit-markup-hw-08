@@ -25,6 +25,7 @@ position: relative;
 padding-left: 25px;
 padding-top: 48px;
 padding-bottom: 48px;
+
 }
 .mobile-menu_close-btn {
     position: absolute;
@@ -47,9 +48,9 @@ padding-bottom: 48px;
        margin-bottom: 32px;
        }
 .mob-menu_color {
-color: #212121;
+    color: #212121;
 }
-.mobile-menu__phone {
+.mobile-aplications__phone {
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -57,7 +58,13 @@ font-family: 'Roboto';
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #2196F3;
+    padding: 0;
+   
 }
+.mobile-aplications {
+    padding: 0;
+}
+
 .caren {
 color: #2196F3;
 }
@@ -78,5 +85,15 @@ color: #2196F3;
         font-size: 18px;
         line-height: 22px;
     letter-spacing: 0.02em;
+    
+}
+.phone-programs {
+    margin-top: 64px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+.phone-programs__item {
     color: #2196F3;
 }

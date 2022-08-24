@@ -48,6 +48,7 @@ padding-bottom: 48px;
     color: #212121;
 }
 .mobile-aplications__phone {
+    margin-bottom: 32px ;
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -59,6 +60,9 @@ font-family: 'Roboto';
    
 }
 .mobile-aplications {
+    flex-direction: column;
+    display: flex;
+    margin-top: 64px;
     padding: 0;
 }
 
@@ -85,8 +89,8 @@ color: #2196F3;
     
 }
 .phone-programs {
-    margin-top: 64px;
     flex-wrap: wrap;
+    margin-top: 64px;
     display: flex;
     gap: 20px;
 }

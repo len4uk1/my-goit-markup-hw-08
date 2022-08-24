@@ -1,11 +1,33 @@
+@media screen and (min-width: 768px) {
+  .list-title {
+width: calc((100%-60px)/2 ) ;
+margin-right: 30px;
+  }  
+}
+.summary-title {
+justify-content: center;
+gap: 30px;
+display: flex;
+   }
+
+
+
+@media screen and (min-width: 1200px) {
+    .list-title {
+        width: calc((100%-90px) / 4);
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
 // .characteristic {
 //     padding: 94px 0;
 // }
-// .summary-title {
-// justify-content: center;
-// gap: 30px;
-// display: flex;
-// }
+
 // .list-index {
 // gap: 30px;
 // display: block;

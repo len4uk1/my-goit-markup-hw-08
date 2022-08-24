@@ -1,8 +1,6 @@
  
 .hero {
-    
-    
-     background: var(--background-color);
+    background: var(--background-color);
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
@@ -14,66 +12,89 @@
             background-position: content ;
             background-size: cover;
             margin-right: auto;
-            margin-left: auto;
+            margin-left: auto; 
+        }
+
+
 
      @media (min-device-pixel-ratio: 2),
      (min-resolution: 192dpi),
      (min-resolution: 2dppx) {
-
-        background-image:
+    
+        .hero {
+     background-image:
         linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
       url("../image/mobile-picture/Header2x.jpg"); 
-    }
+            }
+       }
 
-    @media screen and (min-width: 768px) {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
-    url("../image/mobile-picture/Header.jpg");
     
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) ,
-    (min-resolution: 2dppx) {
-    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
-    url("../image/mobile-picture/Header2x.jpg");
-        }
-      }
-
-
-    @media screen and (min-width: 1200px) {
+//        @media screen and (min-width: 768px) {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
+//     url("../image/mobile-picture/Header.jpg");
     
-    font-size: 44px;
-    line-height: 1.36;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
-            url("../image/mobile-picture/Header.jpg");
-    @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
-                    url("../image/mobile-picture/Header2x.jpg");
+//     @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi) ,
+//     (min-resolution: 2dppx) {
+//     background-image:linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
+//     url("../image/mobile-picture/Header2x.jpg");
+//         }
+//       }
+
+
+//     @media screen and (min-width: 1200px) {
+    
+//     font-size: 44px;
+//     line-height: 1.36;
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
+//             url("../image/mobile-picture/Header.jpg");
+//     @media (min-device-pixel-ratio: 2),
+//         (min-resolution: 192dpi),
+//         (min-resolution: 2dppx) {
+//         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)),
+//                     url("../image/mobile-picture/Header2x.jpg");
             
-     }
-  }
-}
+//      }
+//   }
+// }
+
+
+// .box {
+//     width: 480px;
+//     height: 320px;
+//     background-image: url('photo.png');
+//     background-size: 480px 320px;
+// }
+
+// @media (min-device-pixel-ratio: 2),
+// (-webkit-min-device-pixel-ratio: 2),
+// (min-resolution: 192dpi),
+// (min-resolution: 2dppx) {
+//     .box {
+//         background-image: url('photo@2x.png');
+//     }
+// }
     
- .main-title {
-      margin-bottom:30px ;
-     width: 696px;
-     margin-left: auto;
-         margin-right: auto; 
-         font-weight: 900;
-         font-size: 44px;
-         line-height: 1.36;
-         letter-spacing: 0.06em;
-         text-transform: uppercase;
-         text-align: center;
-         color:var(--whitey-color);
-        //  @media screen and ( min-width :768px) {
-        //     width: 360px;
-        //  }
-        // @media screen and (min-width :1200px) {
-        // width: 696px;
-        //     }
+//  .main-title {
+//       margin-bottom:30px ;
+//      width: 696px;
+//      margin-left: auto;
+//          margin-right: auto; 
+//          font-weight: 900;
+//          font-size: 44px;
+//          line-height: 1.36;
+//          letter-spacing: 0.06em;
+//          text-transform: uppercase;
+//          text-align: center;
+//          color:var(--whitey-color);
+//          @media screen and ( min-width :768px) {
+//             width: 360px;
+//          }
+//         @media screen and (min-width :1200px) {
+//         width: 696px;
+//             }
          
-    }
+//     }
 
 
 

@@ -1,61 +1,68 @@
-@media screen and (min-width: 768px) {
-  .list-title {
-width: calc((100%-60px)/2 ) ;
-margin-right: 30px;
-  }  
-}
-.summary-title {
-justify-content: center;
-gap: 30px;
-display: flex;
-   }
-
-
-
-@media screen and (min-width: 1200px) {
-    .list-title {
-        width: calc((100%-90px) / 4);
-        margin-right: 30px;
-        margin-bottom: 0;
+@media screen and (max-width: 767px) {
+.characteristic {
+        padding: 60px 0;
     }
 }
 
 
+@media screen and (min-width: 768px) {
+  .list-title {
+width: calc((100% - 60px) / 2 ) ;
+margin-right: 30px;
+  } 
+.summary-title {
+justify-content: center;
+flex-wrap: wrap;
+display: flex;
+   }
+   .characteristic {
+    padding: 94px 0;
+   }
+}
 
 
+@media screen and (min-width: 1200px) {
+    .list-title {
+        width: calc((100% - 90px) / 4);
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
 
-// .characteristic {
-//     padding: 94px 0;
-// }
+}
 
-// .list-index {
-// gap: 30px;
-// display: block;
-// justify-content: center;
-// align-items: center;
-// }
-// .div-svg {
-// align-items: center;
-// height: 120px;
-// display: bloc;
-// display: flex;
-// justify-content: center;
-// background-position: center;
-// background: #F5F4FA;
-// border-radius: 4px;
-// }
-// .subtitle {
-// margin-top: 30px;
-// margin-bottom: 10px;
 
-// text-transform: uppercase;
-// color:var(--text-color);
-// }
-// .section-description {
-// width:270px ;
-// font-style: normal;
-// font-weight: 400;
-// line-height: 1.71;
-// letter-spacing: 0.03em;
-// color:var(--mail-color);
-// }
+.div-svg {
+align-items: center;
+height: 120px;
+display: bloc;
+display: flex;
+justify-content: center;
+background-position: center;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.list-index {
+    gap: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.subtitle {
+margin-top: 30px;
+margin-bottom: 10px;
+
+text-transform: uppercase;
+color:var(--text-color);
+}
+
+.section-description {
+width:270px ;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--mail-color);
+}

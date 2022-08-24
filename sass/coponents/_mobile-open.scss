@@ -1,0 +1,28 @@
+.mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    line-height: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:768px) {
+    .mobile-menu-open {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .meny {
+        display: none;
+    }
+}
+
+.mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    line-height: 0;
+    padding: 0;
+
+}
+
+

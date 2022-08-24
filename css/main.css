@@ -58,7 +58,32 @@ body {
     width: 1200px;
   }
 }
+.mobile-menu-open {
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .meny {
+    display: none;
+  }
+}
+.mobile-menu-open {
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  padding: 0;
+}
+
 .mobile-menu {
+  display: flex;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -543,30 +568,6 @@ body {
   color: var(--mail-color);
 }
 
-.mobile-menu-open {
-  background-color: transparent;
-  border: none;
-  line-height: 0;
-  padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-menu-open {
-    display: none;
-  }
-}
-@media screen and (max-width: 767px) {
-  .meny {
-    display: none;
-  }
-}
-.mobile-menu-open {
-  background-color: transparent;
-  border: none;
-  line-height: 0;
-  padding: 0;
-}
-
 .header__page-container {
   display: flex;
   align-content: center;
@@ -577,6 +578,72 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header__navigation-direction {
+    display: flex;
+    align-items: center;
+  }
+  .meny {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+.li-meny:not(:last-child) {
+  margin-right: 50px;
+}
+
+.studio {
+  padding: 32px 0;
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--knob-color);
+}
+
+.meny__text {
+  display: block;
+  padding: 32px 0;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  transition: color var(--transition-duration);
+}
+.meny__text:hover, .meny__text:focus {
+  color: var(--knob-color);
+}
+
+.email {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mail-color);
+}
+
+.meny__phone-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.meny__phone-number {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mail-color);
+  transition: var(--transition-duration);
+}
+.meny__phone-number:hover, .meny__phone-number:focus {
+  color: var(--knob-color);
 }
 
 .hero {

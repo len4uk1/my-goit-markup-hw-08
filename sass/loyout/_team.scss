@@ -1,3 +1,19 @@
+@media screen and (min-width: 768px){
+   .foto-team {
+width: calc((100% - 60px) / 2);
+margin-right: 30px;
+margin-bottom: 30px;
+padding: 0;
+   } 
+}
+  @media screen and (min-width: 1200px) {
+      .foto-team {
+          width: calc((100% - 90px) / 4);
+          margin-right: 30px;
+          margin-bottom: 0;
+          padding: 0;
+      }
+  }
 
 
 
@@ -18,7 +34,7 @@
 //     &:not(:last-child) {
 //     margin-right: 30px;
 //     }
-//     }
+//   }
 //     .our-team {
 //     margin-bottom: 50px;
 //     font-weight: 700;

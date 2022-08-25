@@ -762,6 +762,22 @@ body {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 768px) {
+  .foto-team {
+    width: calc((100% - 60px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .foto-team {
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
 :root {
   --knob-color: #2196F3;
   --text-color: #212121;

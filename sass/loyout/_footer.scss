@@ -1,41 +1,35 @@
-@media screen and (min-width: 480px) {
-    .container {
-        width: 480px;
-    }
 
-}
+
+
 
 @media screen and (max-width: 768px) {
-    .dark__box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 60px;
-    }
-    }
-
-.types {
-        font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.2;
-            letter-spacing: 0.03em;
-            text-decoration: none;
-    }
-
+   
+   
+    
+}
 // .dark__box {
 //     display: flex;
 //     justify-content: center;
 //             align-items: center;
 //         }
+// .types {
+//         font-family: 'Raleway', sans-serif;
+//             font-weight: 700;
+//             font-size: 26px;
+//             line-height: 1.2;
+//             letter-spacing: 0.03em;
+//             text-decoration: none;
+//     }
 
 
-// @media screen and (min-width: 768px) {
+
+
+@media screen and (min-width: 768px) {
 // .dark {
 //         display: flex;
 //         align-items: baseline;
 //     }
-// }
+}
 
 
 
@@ -85,16 +79,16 @@
     gap: 9px;
     }
     
-    .dark-list-item {
-    margin-right: 93px;
-    margin-left: 70px;
-    }
-    .black-list {
-    margin-top: 20px;
-    gap: 10px;
-    display:flex; 
-    justify-content: center;
-    }
+    // .dark-list-item {
+    // margin-right: 93px;
+    // margin-left: 70px;
+    // }
+    // .black-list {
+    // margin-top: 20px;
+    // gap: 10px;
+    // display:flex; 
+    // justify-content: center;
+    // }
     .social-list-dark {
     display: inline-block;
     height: 44px;

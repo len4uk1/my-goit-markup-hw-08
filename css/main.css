@@ -635,28 +635,6 @@ body {
   fill: var(--fill-color);
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .dark__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 60px;
-  }
-}
-.types {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
 .address {
   font-style: normal;
   font-weight: 400;
@@ -706,18 +684,6 @@ body {
 
 .account {
   gap: 9px;
-}
-
-.dark-list-item {
-  margin-right: 93px;
-  margin-left: 70px;
-}
-
-.black-list {
-  margin-top: 20px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .social-list-dark {

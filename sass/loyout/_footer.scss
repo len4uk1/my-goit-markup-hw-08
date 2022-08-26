@@ -1,91 +1,130 @@
-// .address {
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height:1.7;
-//     letter-spacing: 0.03em;
-//     color: var(--whitey-color);
-//     }
-//     .logospan {
-//     font-family: 'Raleway',sans-serif;
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color: var(--whitey-color)
-//     }
-//     .logo {
-//     font-family: 'Raleway',sans-serif;
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color:var(--knob-color);
-//     }   
-//     .address-menu {
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height:1.7;
-//     letter-spacing: 0.03em;
-//     color: rgba(255, 255, 255, 0.6);
-//     }
-//     .color-back {
-//     box-sizing: border-box;
-//     background:var(--background-color); 
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-//     } 
-//     .types {
-//     display: block;
-//     margin-bottom: 20px;
-//     }
-//     .account {
-//     gap: 9px;
-//     }
-//     .dark {
-//     display: flex;
-//     align-items: baseline;
-//     }
-//     .dark-list-item {
-//     margin-right: 93px;
-//     margin-left: 70px;
-//     }
-//     .black-list {
-//     margin-top: 20px;
-//     gap: 10px;
-//     display:flex; 
-//     justify-content: center;
-//     }
-//     .social-list-dark {
-//     display: inline-block;
-//     height: 44px;
-//     width: 44px;
-//     background-size: contain;
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .dark__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    }
+
+.types {
+        font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+    }
+
+// .dark__box {
 //     display: flex;
 //     justify-content: center;
-//     align-items: center;
-//     border-radius: 50%;
-//     background-color:rgba(255, 255, 255, 0.1);
-//     transition: background-color var(--transition-duration);
-//     &:hover,
-//     &:focus {
-//     color:var(--whitey-color);
-//     background-color:var(--knob-color);
-//         } 
+//             align-items: center;
+//         }
+
+
+// @media screen and (min-width: 768px) {
+// .dark {
+//         display: flex;
+//         align-items: baseline;
 //     }
-//     .social-icon {
-//     fill: 
-//     var(--whitey-color);
-//     .social-list-dark:hover &,
-//     .social-list-dark:focus & {
-//     fill: var(--whitey-color); 
-//     } 
-//     }
+// }
+
+
+
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.7;
+    letter-spacing: 0.03em;
+    color: var(--whitey-color);
+    }
+    .logospan {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--whitey-color)
+    }
+    .logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--knob-color);
+    }   
+    .address-menu {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .color-back {
+    box-sizing: border-box;
+    background:var(--background-color); 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    } 
+    .types {
+    display: block;
+    margin-bottom: 20px;
+    }
+    .account {
+    gap: 9px;
+    }
     
-//     .conected {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     color:var(--whitey-color);
-//     } 
+    .dark-list-item {
+    margin-right: 93px;
+    margin-left: 70px;
+    }
+    .black-list {
+    margin-top: 20px;
+    gap: 10px;
+    display:flex; 
+    justify-content: center;
+    }
+    .social-list-dark {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-duration);
+    &:hover,
+    &:focus {
+    color:var(--whitey-color);
+    background-color:var(--knob-color);
+        } 
+    }
+    .social-icon {
+    fill: 
+    var(--whitey-color);
+    .social-list-dark:hover &,
+    .social-list-dark:focus & {
+    fill: var(--whitey-color); 
+    } 
+    }
+    
+    .conected {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:var(--whitey-color);
+    } 

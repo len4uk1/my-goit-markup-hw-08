@@ -635,6 +635,56 @@ body {
   fill: var(--fill-color);
 }
 
+@media screen and (min-width: 768px) {
+  .dark {
+    display: flex;
+    align-items: baseline;
+  }
+  .dark-list-item {
+    margin-right: 93px;
+    margin-left: 70px;
+  }
+}
+.sign-form {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-top: 60px;
+}
+
+.sing-start {
+  margin-bottom: 30px;
+}
+
+.sing-star {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.button-email-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dark-list-item {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 60px;
+}
+
+.footer-start {
+  display: block;
+  text-align: center;
+}
+
 .address {
   font-style: normal;
   font-weight: 400;
@@ -684,6 +734,13 @@ body {
 
 .account {
   gap: 9px;
+}
+
+.black-list {
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-list-dark {

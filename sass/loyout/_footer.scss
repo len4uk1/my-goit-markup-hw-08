@@ -1,10 +1,10 @@
 
-@media screen and (max-width: 767px) {
-.sign-input {
-    width: 100%;
- }
+// @media screen and (max-width: 767px) {
+// .sign-input {
+//     width: 100%;
+//  }
+// }
 
-}
 @media screen and (min-width: 768px) {
     .dark {
         display: contents;
@@ -15,13 +15,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+}
+    
 
 
-    .dark-list-item {
+  .dark-list-item {
         margin-right: 93px;
         margin-left: 70px;
     }
-}
+
 @media screen and (min-width: 1200px) {
 .sign-input {
     width: 358px;
@@ -31,6 +33,11 @@
   }
   .dark__box {
     display: flex;
+  }
+  .footer-start {
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 }
 

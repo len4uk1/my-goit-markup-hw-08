@@ -673,11 +673,6 @@ body {
   fill: var(--fill-color);
 }
 
-@media screen and (max-width: 767px) {
-  .sign-input {
-    width: 100%;
-  }
-}
 @media screen and (min-width: 768px) {
   .dark {
     display: contents;
@@ -688,11 +683,12 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .dark-list-item {
-    margin-right: 93px;
-    margin-left: 70px;
-  }
 }
+.dark-list-item {
+  margin-right: 93px;
+  margin-left: 70px;
+}
+
 @media screen and (min-width: 1200px) {
   .sign-input {
     width: 358px;
@@ -702,6 +698,11 @@ body {
   }
   .dark__box {
     display: flex;
+  }
+  .footer-start {
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 }
 .sign-form {

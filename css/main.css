@@ -875,7 +875,6 @@ body {
 }
 
 .exposition {
-  flex-grow: 1;
   background: var(--whitey-color);
   border: 1px solid #EEEEEE;
   padding: 20px 24px;

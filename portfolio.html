@@ -32,6 +32,12 @@
             
         </ul>
     </nav>
+    <button type="button" class="mobile-menu-open" data-menu-open>
+        <svg class="mobile-menu-open_icon" width="40" height="40">
+            <use href="./image/sprite.svg#icon-menu_40px"></use>
+        </svg>
+    </button>
+
     <ul class="meny list">
         <li class="meny">
             <a class="meny__phone-number link" href="mailto:info@devstudio.com">
@@ -49,7 +55,46 @@
     </li>
     </ul>
 </div>
-       
+    <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+            <button class="mobile-menu_close-btn" data-menu-close>
+                <svg class="mobile-menu_close-icon" width="40" height="40">
+                    <use href="./image/sprite.svg#icon-close_40px"></use>
+                </svg>
+            </button>
+            <ul class="mob-menu list link">
+                <li class="mob-menu_item">
+                    <a class="mob-menu_color caren link" href="./portfolio.html">Студія</a>
+                </li>
+                <li class="mob-menu_item">
+                    <a class="mob-menu_color link" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="mob-menu_item">
+                    <a class="mob-menu_color link" href="#">Контакти</a>
+                </li>
+            </ul>
+    
+            <div class="mobile-aplications container list link ">
+                <a class="mobile-aplications__phone list link" href="+380961111111">+380961111111</a>
+                <a class="mobile-menu__email list link" href="mailto:info@devstudio.com">mailto:info@devstudio.com</a>
+                <ul class="phone-programs list link">
+                    <li class="phone-programs__list ">
+                        <a class="phone-programs__item link list " href="instagram">instagram</a>
+                    </li>
+                    <li class="phone-programs__list ">
+                        <a class="phone-programs__item link list" href="twitter">twitter</a>
+                    </li>
+                    <li class="phone-programs__list ">
+                        <a class="phone-programs__item link list" href="facebook">facebook</a>
+                    </li>
+                    <li class="phone-programs__list">
+                        <a class="phone-programs__item link list" href="linkedin">linkedin</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
     </header>
 
 <!--головний контент-->
@@ -73,8 +118,18 @@
             <li class="work-moment">
                 <a href="" class="work-moment__work-links link">
        <div class="cards-photos">
+<picture>
+    <source media="(min-width: 1200px)" 
+       srcset="./image/hw-08images/desktop/portfolio-card-set/technokryak-370/technokryak-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/technokryak-370/technokryak-370@2x.jpg 2x">
+    <source media="(min-width: 768px)" 
+       srcset="./image/hw-08images/tablet/portfolio-card-set/technokryak-354/technokryak-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/technokryak-354/technokryak-354@2x.jpg 2x">
+<source media="(max-width: 767px)" 
+       srcset="./image/hw-08images/mobile/portfolio-card-set/technocryak-450/technocryak-450.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/technokryak-354/technokryak-354@2x.jpg 2x">
+<img src="./image\mobile-picture\macbook.jpg" alt= "фото проектів" width="100%">
+</picture>
 
-               <img src="./image_portfolio/img1.jpg" alt= "фото проектів" width="370" >
+
+               
            
             <p class="cards-photos__inside">
                Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
@@ -92,14 +147,24 @@
             <li class="work-moment"> 
         <a href="" class="work-moment__work-links link">
             <div class="cards-photos">
-                <img src="./image_portfolio/img2.jpg" alt= "фото проектів" width="370" >
+                <picture>
+                    <source media="(min-width: 1200px)"
+                            srcset="./image/hw-08images/desktop/portfolio-card-set/poster-new-orlean-370/poster-new-orlean-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/poster-new-orlean-370/poster-new-orlean-370@2x.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./image/hw-08images/tablet/portfolio-card-set/poster-new-orlean-354/poster-new-orlean-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/poster-new-orlean-354/poster-new-orlean-354@2x.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./image/hw-08images/mobile/portfolio-card-set/poster-new-orlean-450/poster-new-orlean-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/poster-new-orlean-450/poster-new-orlean-450@2x.jpg 2x">
+                    <img src="./image/hw-08images/mobile/portfolio-card-set/poster-new-orlean-450/poster-new-orlean-450.jpg" alt= "фото проектів">
+                </picture>
+
+                
             <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                   Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
               </p>   
      </div>
             <div class="exposition">
-        <h2 class="exposition__names">Постер New Orlean vs Golden Star</h2>
+        <h2 class="exposition__names"> New Orlean vs Golden Star</h2>
      <p class="exposition__title">Дизайнт</p>
      </div>
        </a>  
@@ -107,7 +172,17 @@
         <li class="work-moment">
         <a href="" class="link work-moment__work-links">
             <div class="cards-photos">
-             <img src="./image_portfolio/img3.jpg" alt= "фото проектів" width="370" >
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./image/hw-08images/desktop/portfolio-card-set/seafood-370/seafood-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/seafood-370/seafood-370@2x.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./image/hw-08images/tablet/portfolio-card-set/seafood-354/seafood-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/seafood-354/seafood-354@2x.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./image/hw-08images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/seafood-450/seafood-450@2x.jpg 2x">
+                    <img src="./image/hw-08images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg"
+                        alt="фото проектів">
+                </picture>
+             
               <p class="cards-photos__inside">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
               Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -122,9 +197,18 @@
 <li class="work-moment">
         <a href="" class="link work-moment__work-links">
             <div class="cards-photos">
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./image/hw-08images/desktop/portfolio-card-set/prime-370/prime-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/prime-370/prime-370@2x.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./image/hw-08images/tablet/portfolio-card-set/prime-354/prime-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/prime-354/prime-354@2x.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./image/hw-08images/mobile/portfolio-card-set/prime-450/prime-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/prime-450/prime-450@2x.jpg 2x">
+                    <img src="./image/hw-08images/mobile/portfolio-card-set/prime-450/prime-450.jpg" alt="фото проектів"
+                        >
+                </picture>
 
-        <img src="./image_portfolio/img4.jpg" alt= "фото проектів" width="370" >
-        <p class="cards-photos__inside">
+    <p class="cards-photos__inside">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
               Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
           </p>   
@@ -138,8 +222,16 @@
 <li class="work-moment">
         <a href="" class="link work-moment__work-links">
             <div class="cards-photos">
-    <img src="./image_portfolio/img5.jpg" alt= "фото проектів" width="370" >
-        <p class="cards-photos__inside">
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./image/hw-08images/desktop/portfolio-card-set/boxes-370/boxes-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/boxes-370/boxes-370@2x.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./image/hw-08images/tablet/portfolio-card-set/boxes-354/boxes-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/boxes-354/boxes-354@2x.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./image/hw-08images/mobile/portfolio-card-set/boxes-450/boxes-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/boxes-450/boxes-450@2x.jpg 2x">
+                    <img src="./image/hw-08images/mobile/portfolio-card-set/boxes-450/boxes-450.jpg" alt="фото проектів">
+                </picture>
+    <p class="cards-photos__inside">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
               Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
           </p>   
@@ -153,7 +245,16 @@
          <li class="work-moment">
             <a href="" class="link work-moment__work-links">
                 <div class="cards-photos">
-        <img src="./image_portfolio/img6.jpg" alt= "фото проектів" width="370" >
+                    <picture>
+                        <source media="(min-width: 1200px)"
+                            srcset="./image/hw-08images/desktop/portfolio-card-set/inspiration-370/inspiration-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/inspiration-370/inspiration-370@2x.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./image/hw-08images/tablet/portfolio-card-set/inspiration-354/inspiration-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/inspiration-354/inspiration-354@2x.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./image/hw-08images/mobile/portfolio-card-set/inspiration-450/inspiration-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/inspiration-450/inspiration-450@2x.jpg 2x">
+                        <img src="./image/hw-08images/mobile/portfolio-card-set/inspiration-450/inspiration-450.jpg" alt="фото проектів">
+                    </picture>
+        <!-- <img src="./image_portfolio/img6.jpg" alt= "фото проектів" width="370" > -->
             <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                 Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -170,8 +271,18 @@
             <li class="work-moment">
                 <a href="" class="link work-moment__work-links">
                     <div class="cards-photos">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./image/hw-08images/desktop/portfolio-card-set/limited-edition-370/limited-edition-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/limited-edition-370/limited-edition-370@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./image/hw-08images/tablet/portfolio-card-set/limited-edition-354/limited-edition-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/limited-edition-354/limited-edition-354@2x.jpg 2x">
+                            <source media="(max-width: 767px)"
+                                srcset="./image/hw-08images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450@2x.jpg 2x">
+                            <img src="./image/hw-08images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450.jpg" alt="фото проектів"
+                                >
+                        </picture>
 
-                <img src="./image_portfolio/img7.jpg" alt= "фото проектів" width="370" >
+                <!-- <img src="./image_portfolio/img7.jpg" alt= "фото проектів" width="370" > -->
                 <p class="cards-photos__inside">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -188,8 +299,18 @@
            <li class="work-moment">
             <a href="" class="link work-moment__work-links">
                 <div class="cards-photos">
+                    <picture>
+                        <source media="(min-width: 1200px)"
+                            srcset="./image/hw-08images/desktop/portfolio-card-set/lab-370/lab-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/lab-370/lab-370@2x.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./image/hw-08images/tablet/portfolio-card-set/lab-354/lab-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/lab-354/lab-354@2x.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./image/hw-08images/mobile/portfolio-card-set/lab-450/lab-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/lab-450/lab-450@2x.jpg 2x">
+                        <img src="./image/hw-08images/mobile/portfolio-card-set/lab-450/lab-450.jpg"
+                            alt="фото проектів">
+                    </picture>
 
-            <img src="./image_portfolio/img8.jpg" alt= "фото проектів" width="370" >
+            <!-- <img src="./image_portfolio/img8.jpg" alt= "фото проектів" width="370" > -->
             <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                 Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -205,8 +326,18 @@
         <li class="work-moment">
             <a href="" class="link work-moment__work-links">
                 <div class="cards-photos">
+                    <picture>
+                        <source media="(min-width: 1200px)"
+                            srcset="./image/hw-08images/desktop/portfolio-card-set/growing-business-370/growing-business-370.jpg 1x, ./image/hw-08images/desktop/portfolio-card-set/growing-business-370/growing-business-370@2x.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./image/hw-08images/tablet/portfolio-card-set/growing-business-354/growing-business-354.jpg 1x, ./image/hw-08images/tablet/portfolio-card-set/growing-business-354/growing-business-354@2x.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./image/hw-08images/mobile/portfolio-card-set/growing-business-450/growing-business-450.jpg 1x, ./image/hw-08images/mobile/portfolio-card-set/growing-business-450/growing-business-450@2x.jpg 2x">
+                        <img src="./image/hw-08images/mobile/portfolio-card-set/growing-business-450/growing-business-450.jpg"
+                            alt="фото проектів">
+                    </picture>
 
-            <img src="./image_portfolio/img9.jpg" alt= "фото проектів" width="370" >
+            <!-- <img src="./image_portfolio/img9.jpg" alt= "фото проектів" width="370" > -->
             <p class="cards-photos__inside">
                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                 Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -305,5 +436,6 @@
 </form>
     </div>
 </footer>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>

@@ -1,3 +1,14 @@
+@media screen and (min-width: 768px) {
+    .buttons {
+        align-items: center;
+            margin-bottom: 30px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+}
+
 .buttons__portfolio-btn {
     padding-top: 6px;
     padding-bottom: 6px;
@@ -27,8 +38,9 @@
     border-color: transparent;
     }
     .buttons {
-        margin-bottom: 50px;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         gap: 8px;
     }

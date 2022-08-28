@@ -713,7 +713,6 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .dark {
-    align-items: baseline;
     justify-content: space-between;
   }
   .sign-input {
@@ -1249,6 +1248,17 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .main-title {
+    font-size: 26px;
+    line-height: 1.6;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-title {
+    font-size: 44px;
+  }
+}
 .main-title {
   margin-bottom: 30px;
   margin-left: auto;

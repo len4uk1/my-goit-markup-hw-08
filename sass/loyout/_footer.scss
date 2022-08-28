@@ -1,20 +1,21 @@
 
-// @media screen and (max-width: 767px) {
-// .sign-input {
-//     width: 100%;
-//  }
-// }
+@media screen and (max-width: 767px) {
+.sign-input {
+    width: 100%;
+ }
 
+}
+.button-email-form {
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (min-width: 768px) {
     .dark {
         display: contents;
         align-items: baseline;
         justify-content: space-between;
     }
-    .button-email-form {
-    margin-left: auto;
-    margin-right: auto;
-}
+    
 }
     
 
@@ -39,8 +40,14 @@
     display: flex;
     align-items: center;
   }
+  .button-email-form {
+      padding: 10px 28px;
+      border: none;
+      gap: 10px;
+      margin-left: 12px;
+      display: flex;
 }
-
+}
 
 
 .sign-form {
@@ -89,7 +96,7 @@
     padding: 10px 28px;
     border: none;
     gap: 10px;
-    margin-left: 12px;
+    // margin-left: 12px;
     display: flex;
     justify-content: center;
     align-items: center;

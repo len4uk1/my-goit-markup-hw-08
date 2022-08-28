@@ -142,6 +142,10 @@ body {
   margin-bottom: 32px;
 }
 
+.caren {
+  color: #2196F3;
+}
+
 .mob-menu_color {
   font-family: "Roboto";
   font-style: normal;
@@ -150,6 +154,11 @@ body {
   line-height: 47px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.mob-menu_color:hover, .mob-menu_color:focus {
+  color: var(--knob-color);
+  color: var(--text-color);
+  transition: color var(--transition-duration);
 }
 
 .mobile-aplications__phone {
@@ -169,10 +178,6 @@ body {
   display: flex;
   margin-top: 64px;
   padding: 0;
-}
-
-.caren {
-  color: #2196F3;
 }
 
 .mobile-menu__email {
@@ -757,6 +762,9 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--whitey-color);
+  }
+  .sign-start {
+    display: flex;
   }
   .logospan {
     font-family: "Raleway", sans-serif;

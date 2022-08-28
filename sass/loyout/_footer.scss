@@ -6,9 +6,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and(max-width: 1199px) {
     .dark {
-        display: contents;
+        // display: contents;
         align-items: baseline;
         justify-content: space-between;
     }
@@ -17,7 +17,17 @@
         display: flex;
         // flex-direction: column;
         flex-wrap: wrap;
+        // justify-content: center;
+        align-items: center;
     }
+        .dark-list-item {
+            margin-top: 0;
+            margin-right: 0;
+
+        }
+        // .desktop-mob {
+        //     margin-right: 165px;
+        // }
 }
     
 
@@ -46,6 +56,10 @@
       margin-left: 12px;
       display: flex;
 }
+.dark-list-item {
+    margin-right: 93px;
+    margin-left: 70px;
+}
 }
 // @media screen and (max-width: 767px) {
 //     .sign-input {
@@ -54,10 +68,7 @@
 // }
 
 
-.dark-list-item {
-    margin-right: 93px;
-    margin-left: 70px;
-}
+
 
 .sign-form {
     justify-content: center;
@@ -128,13 +139,13 @@
 }
 
 
-.dark-list-item {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-top: 60px;
-}
+// .dark-list-item {
+//     display: block;
+//     justify-content: center;
+//     align-items: center;
+//     align-content: center;
+//     margin-top: 60px;
+// }
 
 .footer-start {
     display: block;

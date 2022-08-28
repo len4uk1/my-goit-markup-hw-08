@@ -1,5 +1,11 @@
-
-
+@media screen and (max-width: 767px) {
+        .dark-list-item {
+            margin-top: 60px;
+  }
+  .sign-input {
+    margin-bottom: 20px;
+  }
+}
 
 
 .button-email-form {
@@ -12,6 +18,9 @@
         align-items: baseline;
         justify-content: space-between;
     }
+        .sign-input {
+            margin-bottom: 20px;
+        }
     .dark__box {
         justify-content: space-around;
         display: flex;
@@ -25,6 +34,7 @@
             margin-right: 0;
 
         }
+
         // .desktop-mob {
         //     margin-right: 165px;
         // }

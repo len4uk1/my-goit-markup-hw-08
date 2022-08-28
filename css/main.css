@@ -693,6 +693,14 @@ body {
   fill: var(--fill-color);
 }
 
+@media screen and (max-width: 767px) {
+  .dark-list-item {
+    margin-top: 60px;
+  }
+  .sign-input {
+    margin-bottom: 20px;
+  }
+}
 .button-email-form {
   margin-left: auto;
   margin-right: auto;
@@ -702,6 +710,9 @@ body {
   .dark {
     align-items: baseline;
     justify-content: space-between;
+  }
+  .sign-input {
+    margin-bottom: 20px;
   }
   .dark__box {
     justify-content: space-around;

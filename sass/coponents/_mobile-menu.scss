@@ -21,12 +21,16 @@
     visibility: visible;
     pointer-events: auto;
 }
+@media screen and (max-width: 767px) {
 .mobile-menu__container{
 position: relative;
 padding-left: 25px;
 padding-top: 48px;
 padding-bottom: 48px;
+
 }
+}
+
 .mobile-menu_close-btn {
     position: absolute;
     top: 15px;
@@ -46,6 +50,12 @@ padding-bottom: 48px;
        margin-bottom: 32px;
        }
 .mob-menu_color {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
     color: #212121;
 }
 .mobile-aplications__phone {

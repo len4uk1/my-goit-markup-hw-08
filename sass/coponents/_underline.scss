@@ -1,6 +1,14 @@
-.meny__link {
+@media screen and (min-width: 768px) and(max-width: 1199px) {
+  
+}
+ @media screen and (min-width: 1200px) {
+
+}
+        .underline {
     position: relative;
-    &::after {
+    
+    }
+    .underline::after {
     position: absolute;
     content:"";
     display: block; 
@@ -8,7 +16,5 @@
     border-radius: 2px;
     width: 100%;
     height: 4px;
-    bottom: -3px;
+    bottom: -53px;
       } 
-    }
-    

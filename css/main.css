@@ -673,11 +673,6 @@ body {
   fill: var(--fill-color);
 }
 
-@media screen and (max-width: 767px) {
-  .sign-input {
-    width: 100%;
-  }
-}
 .button-email-form {
   margin-left: auto;
   margin-right: auto;
@@ -689,12 +684,12 @@ body {
     align-items: baseline;
     justify-content: space-between;
   }
+  .dark__box {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-.dark-list-item {
-  margin-right: 93px;
-  margin-left: 70px;
-}
-
 @media screen and (min-width: 1200px) {
   .sign-input {
     width: 358px;
@@ -718,6 +713,11 @@ body {
     display: flex;
   }
 }
+.dark-list-item {
+  margin-right: 93px;
+  margin-left: 70px;
+}
+
 .sign-form {
   justify-content: center;
   align-items: center;
